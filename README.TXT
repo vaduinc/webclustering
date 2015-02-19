@@ -1,12 +1,11 @@
 
 WEB INTERFACE TO USE JSA clustering.jar
 
-CSCI E99
-	Spring 2015
-	Feb - 8 - 2015
-	HW 01 - part 1
-	
 Notes:
+	Allows to upload a plain data file with the data and select the type of algorithm to process
+	(Jarvis or Leader), the type of the input data in the file to be uploaded (fp or mtx)
+	and the particular input parameters needed to run the algorithm; minimum distance (leader),
+	number of neighbors and common neighbors (jarvis)
 	
  To compile:
 	
