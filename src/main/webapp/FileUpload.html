@@ -1,0 +1,24 @@
+<html>
+<body>
+	<h1>Clustering JARVIS or LEADER - CSCI E99</h1>
+ 
+	<form action="rest/file/upload" method="post" enctype="multipart/form-data">
+ 
+ 			<h1></h1>
+ 
+			Select algorithm (jarvis or leader)<input name="algo" value="jarvis" /><br>
+			Type of input data (fp or mtx)<input name="typeInput" value="fp" /><br>
+			Minimum Distance (leader) <input name="minDist" value="1" /><br>
+			Number of Neighbors <input name="numNeigh" value="2" /><br>
+			Common Neighbors <input name="comNeigh" value="1" /><br>
+			
+		   <p>
+			Select the input data file : <input type="file" name="file" size="45" />
+		   </p>
+	 
+		   <input type="submit" value="Upload It" />
+	   
+	</form>
+ 
+</body>
+</html>
