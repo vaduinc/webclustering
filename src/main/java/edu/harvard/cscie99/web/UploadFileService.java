@@ -88,7 +88,7 @@ public class UploadFileService {
 	public String readFile(String fileName) throws IOException {
 
         Scanner s = null;
-        StringBuffer strb = new StringBuffer("RESULTS <br>");
+        StringBuffer strb = new StringBuffer("OUTPUT <br>");
         try {
             s = new Scanner(new BufferedReader(new FileReader(fileName)));
 
